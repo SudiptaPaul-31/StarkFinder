@@ -75,16 +75,6 @@ export default function ChatContainer({
             </h2>
           </div>
         </div>
-        
-        <div className="flex items-center gap-2">
-          <Button
-            variant="ghost"
-            size="sm"
-            className="h-8 w-8 p-0 text-gray-400 hover:text-white hover:bg-gray-800/50 rounded-lg"
-            onClick={() => window.location.reload()}
-          >
-          </Button>
-        </div>
       </div>
 
       {/* Messages Area */}
